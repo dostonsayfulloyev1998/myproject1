@@ -1,0 +1,27 @@
+#modal{
+    width:300px;
+    height:500px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 150px);
+    z-index: 2;
+}
+
+.d-none {
+    display: none;
+}
+
+.red{
+    background-color: #ac1919;
+}
+
+form{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
