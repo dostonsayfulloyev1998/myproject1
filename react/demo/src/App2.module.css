@@ -1,0 +1,19 @@
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.tabs li{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #00cc21;
+    border-radius: 5px;
+    color: white;
+}
+
+
